@@ -11,4 +11,4 @@ a = int(input("Введите левую границу списка: "))
 b = int(input("Введите правую границу списка: "))
 if a > b:
     a, b = b, a
-print([x for x in range(a, b + 1) if not(isprime(x))])
+print([x for x in range(a, b + 1) if not (isprime(x))])
