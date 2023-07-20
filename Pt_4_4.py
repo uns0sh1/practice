@@ -10,7 +10,7 @@ comb = []
 res = []
 
 if length > 0:
-    for i in range(0, length+1):
+    for i in range(0, length + 1):
         comb += list(combinations(numlist, i))
     for value in comb:
         if sum(value) == num:
