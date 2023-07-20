@@ -3,7 +3,7 @@ import random
 colors = ["red", "blue", "green", "yellow", "purple"]
 print("Доступные цвета в списке: ")
 for i in range(len(colors)):
-    print((i+1), colors[i])
+    print((i + 1), colors[i])
 
 optionProg = random.randint(1, len(colors))
 optionUser = int(input("Введите номер цвета: "))
