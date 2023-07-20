@@ -3,7 +3,7 @@ import csv
 filename = "favourite_books.csv"
 amount = int(input("Сколько записей вы хотите добавить в список?\n"))
 for i in range(amount):
-    print("Запись №" + str(i+1))
+    print("Запись №" + str(i + 1))
     book = input("Введите название книги: ")
     author = input("Введите автора книги: ")
     year = input("Введите год выпуска книги: ")
