@@ -7,5 +7,5 @@ print("Получившийся список чисел:")
 for i in range(length):
     numbers[i] = random.randint(0, 1000)
     print(numbers[i], end=" ")
-average = functools.reduce(lambda x, y: x+y, numbers)/len(numbers)
+average = functools.reduce(lambda x, y: x + y, numbers) / len(numbers)
 print("\nСреднее арифметическое списка чисел:", average)
